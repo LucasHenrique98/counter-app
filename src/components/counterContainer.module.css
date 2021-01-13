@@ -1,0 +1,30 @@
+.divContainer {
+  border: 2px solid black;
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.space {
+  padding: 10px;
+}
+
+.footer {
+  margin-top: 60px;
+}
+
+.menusButton {
+  color: white;
+  background-color: coral;
+  width: 40px;
+  height: 40px;
+}
+
+.plusButton {
+  color: white;
+  background-color: darkgreen;
+  width: 40px;
+  height: 40px;
+}
