@@ -12,4 +12,5 @@
 - React.js
 - CSS3
 
-https://user-images.githubusercontent.com/30630150/104458365-0b65c980-558a-11eb-9bf0-0a94a5421d9d.mp4
+![Counter-App-Google-Chrome-2021-01-12-10-51-27](https://user-images.githubusercontent.com/30630150/104458478-37814a80-558a-11eb-8af5-a143ebd4010c.gif)
+
