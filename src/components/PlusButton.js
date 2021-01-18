@@ -1,18 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 import css from './counterContainer.module.css';
 
-export default class PlusButton extends Component {
-  handleClick = () => {
-    this.props.onClick('+');
+export default function PlusButton(props) {
+  const handleClick = () => {
+    props.onClick('+');
   };
-  render() {
-    return (
-      <button
-        onClick={this.handleClick}
-        className={(css.space, css.plusButton)}
-      >
-        +
-      </button>
-    );
-  }
+  return (
+    <button onClick={handleClick} className={(css.space, css.plusButton)}>
+      +
+    </button>
+  );
 }
